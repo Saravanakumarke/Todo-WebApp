@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+
+ /*SWITCHER for color */
+#switcher
+ {
+     list-style-type:none;
+    margin: 0;
+     padding: 0;
+     margin-right: -8cm;
+     display: flex;
+ }
+
+ #switcher li{
+     float: left;
+     width: 30px;
+     height: 30px;
+     margin: 0 15px 0 0;
+     border-radius: 30px;
+     border: 3px solid black;
+ }
+
+ #white
+ {
+     background: #fff;
+ }
+
+ #green
+ {
+     background: #b8e994;
+ }
+ #pink 
+ {
+     background: #fda7df;
+ }
+ #yellow
+ {
+     background: #f8efba;
+ }
+ @media only screen and (max-width: 600px) {
+  #switcher
+  {
+      list-style-type:none;
+     margin: 0;
+      padding: 0;
+      
+      display: flex;
+  }
+
+
+}

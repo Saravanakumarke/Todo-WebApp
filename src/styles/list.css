@@ -1,0 +1,53 @@
+.list-active
+{
+    background:url("../assets/not-checked.svg")no-repeat;
+}
+
+.list-complete
+{
+    background: url("../assets/checked.svg") no-repeat;
+    text-decoration: line-through;
+}
+.todo-hr
+{
+    border: 1px solid rgb(0, 0, 0);
+    margin-left: 0.5cm;
+}
+.todo-heading
+{
+    margin-left: -8.5cm;
+}
+
+@media only screen and (max-width: 600px) {
+    .todo-container
+{
+   
+    margin-left: 0cm;
+    
+}
+.todo-heading
+{
+    margin-left: -6.5cm;
+}
+
+
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .todo-container
+    {
+        width:15cm;
+        margin-left: 3cm;
+        
+    }
+  } 
+  
+  
+  @media only screen and (min-width: 992px) {
+    .todo-container
+{
+    width:15cm;
+    margin-left: 11cm;
+    
+}
+  } 
